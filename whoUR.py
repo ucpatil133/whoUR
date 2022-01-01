@@ -26,7 +26,6 @@ def main():
     print(B+'  \ V  V /  | | | | | (_) |   | |_| | | |     |_|  ')
     print(B+'   \_/\_/   |_| |_|  \___/     \__,_| |_|     (_)  ')
     print('\n')
-    print(lC+'Beta 1.6                                       JopCode')
     print('\n')
 
     select_choice()
@@ -34,16 +33,14 @@ def main():
     print(lG+'\n---------')
     print(lG+'- C Y A -')
     print(lG+'---------\n')
-    print(lR+'[+] Script by JopCode\n')
+    
 
 if __name__ == '__main__':
     try:
         main()
     except KeyboardInterrupt:
         print(lG+'\n---------')
-        print(lG+'- C Y A -')
         print(lG+'---------\n')
-        print(lR+'[+] Script by JopCode\n')
         try:
             sys.exit(0)
         except SystemExit:
